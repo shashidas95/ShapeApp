@@ -1,0 +1,16 @@
+{
+    "name": "shape-calculator/shape-app",
+    "description": "Shape Calculator",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shashidas95",
+            "email": "shashidas95@gmail.com"
+        }
+    ],
+    "require": {}
+}
