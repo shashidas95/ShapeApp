@@ -6,7 +6,9 @@ class ProfileController extends Controller
 {
  public function index()
  {
-  echo "welcome profile from index method";
+  return view("post/index", [
+   "message" => "Hello Frome ProfileController index method",
+  ]);
  }
 
  public function edit()
