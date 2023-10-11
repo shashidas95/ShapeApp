@@ -2,15 +2,15 @@
 
 namespace App\Controllers;
 
-class ProfileController Extends Controller
+class ProfileController extends Controller
 {
  public function index()
  {
-  echo "welcome profile";
+  echo "welcome profile from index method";
  }
 
  public function edit()
  {
-  echo "editing a profile";
+  echo "editing a profile from edit method";
  }
 }

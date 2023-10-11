@@ -1,9 +1,11 @@
-<?php 
+<?php
+
 namespace App\Controllers;
-Class Controller{
+
+class Controller
+{
  public function __construct()
  {
-  echo "hello worlds";
+  echo "Contructed from Main controller =====================>";
  }
-
 }
